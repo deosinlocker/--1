@@ -1,7 +1,3 @@
-/**
- * 月ノ湯旅館 Webシステム設計
- * JAVASCRIPT(旅館)script.js
- */
 "use strict";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -134,3 +130,5 @@ document.addEventListener("DOMContentLoaded", () => {
         currentYearEl.textContent = new Date().getFullYear();
     }
 });
+JAVASCRIPT(旅館)script.js
+5 KB
