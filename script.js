@@ -8,13 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentYearEl = document.getElementById("current-year");
 
     // ローディングマスク制御
-    window.addEventListener("load", () => {
-        const loading = document.querySelector(".loading");
-        if (loading) {
-            loading.classList.add("hide");
-            loading.setAttribute("aria-busy", "false");
-        }
-    });
+   // ローディングマスク制御（即時実行に変えて確実に消す）
+    const loading = document.querySelector(".loading");
+    if (loading) {
+        loading.classList.add("hide");
+        loading.setAttribute("aria-busy", "false");
+    }
 
     // モバイルメニューのアクセシビリティ動的状態管理
     if (hamburger && nav) {
