@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".nav-list a");
     const currentYearEl = document.getElementById("current-year");
 
-    // ローディングマスク制御
    // ローディングマスク制御（即時実行に変えて確実に消す）
     const loading = document.querySelector(".loading");
     if (loading) {
